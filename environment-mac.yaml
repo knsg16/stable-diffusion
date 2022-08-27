@@ -5,7 +5,7 @@ channels:
   - pytorch-nightly
   - defaults
 dependencies:
-  - python=3.10.4
+  - python=3.9.12
   - pip=22.1.2
   - pytorch
   - torchvision
@@ -15,7 +15,6 @@ dependencies:
     - diffusers
     - opencv-python==4.6.0.66
     - pudb==2019.2
-    - invisible-watermark
     - imageio==2.9.0
     - imageio-ffmpeg==0.4.2
     - pytorch-lightning==1.4.2
